@@ -44,7 +44,7 @@ main {
 /*  ----------- 01 -End Base CSS   -----------*/
 /*  ----------- 02 -Start mail_wrong CSS   -----------*/
 .mail_wrong {
-  background: url("../files/image.svg") no-repeat;
+  background: url("../files/image.jpg") no-repeat;
   background-size: cover;
   height: 100vh;
   display: flex;
