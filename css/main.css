@@ -52,6 +52,10 @@ main {
   align-items: center;
   text-align: center;
 }
+.chevron {
+  width: 55px;
+  margin: -55px auto 0;
+}
 .content {
   width: 98%;
   margin: auto;
