@@ -1,0 +1,116 @@
+/* --------------------------
+:: Template Name: Eventsia : Page 01
+:: Description: Page 01
+:: Created: 28/11/2020  MM/DD/YYYY
+-------------------------- */
+
+/* ----------------------
+[Table of contents]
+01.Base CSS
+
+ --------------------------*/
+
+/*  ----------- 01- Start Base CSS  ----------- */
+
+:root {
+  --main-black-color: #222;
+}
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+a {
+  color: inherit !important;
+}
+a:hover {
+  text-decoration: none !important;
+}
+li {
+  padding: 0;
+  margin: 0;
+}
+img {
+  max-width: 100%;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+}
+main {
+}
+
+/*  ----------- 01 -End Base CSS   -----------*/
+/*  ----------- 02 -Start mail_wrong CSS   -----------*/
+.mail_wrong {
+  background: url("../files/image.svg") no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.content {
+  width: 98%;
+  margin: auto;
+  background-color: #fff;
+  border-radius: 20px;
+
+  padding: 0 25px 30px;
+}
+.content p {
+  line-height: 2;
+  margin: 20px 0;
+  color: #6c7b8a;
+}
+.form-group {
+  position: relative;
+}
+.form-group input {
+  background-color: #f4f6f9;
+  border: none;
+  padding: 26px 15px;
+  border-radius: 12px;
+}
+.form-group input:focus {
+  background-color: #f4f6f9;
+  box-shadow: 0px 0px 2px 0.1rem #1ed7a6;
+  color: #000;
+}
+.form .false {
+  position: absolute;
+  right: 15px;
+  top: 30%;
+  width: 20px;
+  background-color: #fff;
+  border-radius: 3px;
+}
+.form .false img {
+  opacity: 0.7;
+}
+.form .ok {
+  position: absolute;
+  right: 22px;
+  top: 23%;
+  z-index: 99;
+  width: 25px;
+}
+.form .ok img {
+  width: 95%;
+  max-width: 100%;
+}
+.form .btn {
+  background-color: #1ed7a6;
+  color: #fff;
+  width: 100%;
+  border-radius: 20px;
+  margin-top: 25px;
+  padding: 15px 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 13px;
+}
+
+/*  ----------- 02 -End mail_wrong CSS   -----------*/
